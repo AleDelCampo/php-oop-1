@@ -2,8 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 body {
-    color: red;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.my-movies {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+}
+
+span {
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+}
+
+.movie {
+    width: calc(100% / 4);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.fauno {
+    background-image: url(https://pad.mymovies.it/filmclub/2006/05/316/coverlg_Home.jpg);
+}
+
+.pinocchio {
+    background-image: url(https://m.media-amazon.com/images/I/71+3+dxmZYL._AC_UF1000,1000_QL80_.jpg);
+}
+
+.beetle1 {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZDdmNjBlYTctNWU0MC00ODQxLWEzNDQtZGY1NmRhYjNmNDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg);
+}
+
+.beetle2 {
+    background-image: url(https://www.ciakmagazine.it/wp-content/uploads/2023/04/beetlejuice-Alex-Murillo-1024x853.jpeg);
 }
